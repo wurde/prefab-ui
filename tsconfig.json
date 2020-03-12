@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "lib": ["es2017", "dom"],
+    "allowJs": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noErrorTruncation": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./",
+    "paths": {
+      "@wurde/pf-layouts": ["./packages/pf-layouts/src"],
+      "@wurde/pf-layouts/*": ["./packages/pf-layouts/src/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "exclude": [
+    "node_modules",
+    "**/build/"
+  ]
+}

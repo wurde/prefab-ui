@@ -1,0 +1,13 @@
+{
+  "name": "prefab-ui",
+  "description": "A suite of Web Component libraries using the Prefab Design System.",
+  "private": true,
+  "scripts": {
+    "lint": "eslint . --cache"
+  },
+  "author": "Andy Bettisworth",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.7.2"
+  }
+}
