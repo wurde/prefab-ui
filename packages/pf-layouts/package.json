@@ -1,0 +1,44 @@
+{
+  "name": "@wurde/pf-layouts",
+  "version": "0.0.0",
+  "description": "A collection of layouts.",
+  "private": false,
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "build:watch": "nodemon --exec 'npm run build' --watch src/ --ext ts,js",
+    "prebuild": "rimraf dist",
+    "release": "npm run build && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wurde/prefab-ui.git",
+    "directory": "packages/pf-layouts"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "bugs": {
+    "url": "https://github.com/wurde/prefab-ui/issues"
+  },
+  "keywords": [
+    "ui",
+    "component",
+    "components",
+    "prefab design"
+  ],
+  "author": "Andy Bettisworth",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "rimraf": "^3.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "lit-element": "^2.2.1"
+  }
+}
