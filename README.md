@@ -1,7 +1,5 @@
 # Prefab UI
 
-<a href="https://github.com/wurde/prefab-ui/actions"><img alt="GitHub Action CI status" src="https://github.com/wurde/prefab-ui/workflows/Continuous%20Integration/badge.svg"></a>
-
 A suite of Web Component libraries using the **Prefab Design System**.
 
 ## Prefab Design System
