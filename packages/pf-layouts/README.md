@@ -18,13 +18,18 @@ npm i -D @wurde/pf-layouts
 
 ## Responsive Layout
 
-This component makes supporting many devices and screen sizes a breeze. Import the library and wrap your UI. Must have at least one layout; options include `4k`, `desktop`, `laptop`, `tablet`, and `mobile`. Graceful fallbacks support a mobile-first paradigm.
+This component makes supporting many devices and screen sizes a breeze. Import the library and wrap your UI. You must define each layout: `4k`, `desktop`, `laptop`, `tablet`, and `mobile`. Graceful fallbacks are not yet support.
 
 ```
 <pf-responsive-layout>
+  <div slot="4k"><h1>My App - Desktop</h1></div>
+
   <div slot="desktop">
     <h1>My App - Desktop</h1>
   </div>
+
+  <div slot="laptop"><h1>My App - Mobile</h1></div>
+  <div slot="tablet"><h1>My App - Mobile</h1></div>
 
   <div slot="mobile">
     <h1>My App - Mobile</h1>
