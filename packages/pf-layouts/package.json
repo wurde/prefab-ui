@@ -1,6 +1,6 @@
 {
   "name": "@wurde/pf-layouts",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Tools for responsive mobile-first layout design when developing components using LitElement.",
   "private": false,
   "main": "dist/index.js",
