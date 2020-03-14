@@ -1,6 +1,6 @@
 # Layouts
 
-A collection of layouts.
+Tools for responsive mobile-first layout design when developing components using LitElement.
 
 ## Getting Started
 
@@ -16,25 +16,53 @@ Install the package:
 npm i -D @wurde/pf-layouts
 ```
 
-## Responsive Layout
+## Breakpoints
 
-This component makes supporting many devices and screen sizes a breeze. Import the library and wrap your UI. You must define each layout: `4k`, `desktop`, `laptop`, `tablet`, and `mobile`. Graceful fallbacks are not yet support.
+Use `brekapoints` as your single source of truth for your layouts. Choosing convention over configuration reduces mental overhead for your team and avoids divergent codebases. Current devices and screen sizes supported include `tv`, `desktop`, `laptop`, `tablet`, and `mobile`.
 
+### Definitions:
+
+```javascript
+export const breakpoints = {
+  mobile: { maxWidth: css`384px` },
+  tablet: { minWidth: css`384px`, maxWidth: css`768px` },
+  laptop: { minWidth: css`768px`, maxWidth: css`1024px` },
+  desktop: { minWidth: css`1024px`, maxWidth: css`1440px` },
+  tv: { minWidth: css`1440px` }
+};
 ```
-<pf-responsive-layout>
-  <div slot="4k"><h1>My App - Desktop</h1></div>
 
-  <div slot="desktop">
-    <h1>My App - Desktop</h1>
-  </div>
+### Example:
 
-  <div slot="laptop"><h1>My App - Mobile</h1></div>
-  <div slot="tablet"><h1>My App - Mobile</h1></div>
+```typescript
+import { LitElement, html, css, customElement } from "lit-element";
+import { breakpoints } from "@wurde/pf-layouts";
 
-  <div slot="mobile">
-    <h1>My App - Mobile</h1>
-  </div>
-</pf-responsive-layout>
+@customElement("my-app")
+export class MyApp extends LitElement {
+  static styles = css`
+    :host {
+      height: 100vh;
+      display: grid;
+      grid-template-columns: 20px 1fr 20px;
+      grid-template-rows: 100px 1fr;
+      justify-content: center;
+      padding: 10px;
+    }
+    @media (min-width: ${breakpoints.desktop.minWidth}) {
+      :host {
+        grid-template-columns: 1fr 6fr 1fr;
+        padding: 0px;
+      }
+    }
+  `;
+
+  render() {
+    return html`
+      ...
+    `
+  }
+}
 ```
 
 ## Release a new version

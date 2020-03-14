@@ -1,1 +1,1 @@
-require("./pf-responsive-layout");
+export { breakpoints } from "./breakpoints";
