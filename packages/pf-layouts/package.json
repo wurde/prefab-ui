@@ -40,5 +40,6 @@
   },
   "dependencies": {
     "lit-element": "^2.2.1"
-  }
+  },
+  "files": ["dist/index.js"]
 }
