@@ -4,12 +4,6 @@
   "description": "Tools for responsive mobile-first layout design when developing components using LitElement.",
   "private": false,
   "main": "src/index.ts",
-  "scripts": {
-    "prebuild": "rimraf dist",
-    "build": "webpack --config webpack.config.js",
-    "build:watch": "nodemon --exec 'npm run build' --watch src/ --ext ts,js",
-    "release": "npm run build && npm publish"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/wurde/prefab-ui.git",

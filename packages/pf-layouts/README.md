@@ -71,7 +71,7 @@ After making changes run the following commands:
 
 ```bash
 npm version [major minor patch]
-npm run release
+npm publish
 ```
 
 ## License
