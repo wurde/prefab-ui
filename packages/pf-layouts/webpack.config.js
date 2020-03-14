@@ -3,7 +3,7 @@ const path = require("path");
 
 module.exports = {
   mode: "production",
-  entry: "./src/index.ts",
+  entry: "./src/breakpoints/index.ts",
   module: {
     rules: [
       {
