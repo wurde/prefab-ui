@@ -1,6 +1,6 @@
 import { css } from "lit-element";
 
-exports const breakpoints = {
+export const breakpoints = {
   mobile: { maxWidth: css`384px` },
   tablet: { minWidth: css`384px`, maxWidth: css`768px` },
   laptop: { minWidth: css`768px`, maxWidth: css`1024px` },
