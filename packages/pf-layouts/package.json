@@ -3,7 +3,7 @@
   "version": "2.10.0",
   "description": "Tools for responsive mobile-first layout design when developing components using LitElement.",
   "private": false,
-  "main": "src/index.js",
+  "main": "src/index.ts",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "webpack --config webpack.config.js",
