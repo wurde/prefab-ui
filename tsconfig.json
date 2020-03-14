@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
     "target": "es2017",
-    "module": "umd",
+    "module": "es2015",
     "moduleResolution": "node",
     "lib": ["es2017", "dom"],
     "strict": true,
     "noImplicitAny": true,
     "noErrorTruncation": true,
+    "assumeChangesOnlyAffectDirectDependencies": true,
     "forceConsistentCasingInFileNames": true,
     "experimentalDecorators": true
   },

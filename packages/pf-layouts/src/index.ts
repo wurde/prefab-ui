@@ -1,1 +1,1 @@
-exports.breakpoints = require("./breakpoints");
+export { breakpoints } from "./breakpoints";
