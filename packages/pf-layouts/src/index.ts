@@ -1,1 +1,1 @@
-export * from "./breakpoints";
+exports * from "./breakpoints";
