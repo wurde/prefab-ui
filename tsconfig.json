@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es2017",
     "module": "es2015",
-    "moduleResolution": "classic",
+    "moduleResolution": "node",
     "lib": ["es2017", "dom"],
     "strict": true,
     "noImplicitAny": true,
