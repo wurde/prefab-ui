@@ -12,7 +12,7 @@ Principles:
 
 ## Packages
 
-- [pf-layouts](/packages/pf-layouts/README.md) - A collection of layouts.
+- [pf-layouts](/packages/pf-layouts/README.md) - Tools for responsive mobile-first layout design.
 
 ## License
 
