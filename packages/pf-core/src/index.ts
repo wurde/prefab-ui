@@ -1,2 +1,2 @@
-import "./components/pf-button";
-import "./components/pf-heading";
+import "./00-sections/pf-heading";
+import "./06-forms/pf-button";
