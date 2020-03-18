@@ -7,4 +7,5 @@ import "./02-text/pf-text";
 import "./03-embedded/pf-audio";
 import "./03-embedded/pf-image";
 import "./03-embedded/pf-video";
+import "./04-tabular-data/pf-table";
 import "./06-forms/pf-button";

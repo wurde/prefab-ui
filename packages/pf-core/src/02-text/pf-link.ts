@@ -1,10 +1,12 @@
-import { LitElement, html, customElement } from "lit-element";
+import { LitElement, html, property, customElement } from "lit-element";
 
 @customElement("pf-link")
 export class PrefabLink extends LitElement {
+  @property({ type: String }) href: string = "#";
+
   render() {
     return html`
-      <a><slot></slot></a>
+      <a href="${this.href}"><slot></slot></a>
     `;
   }
 }
