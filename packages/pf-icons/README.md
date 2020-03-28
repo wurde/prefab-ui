@@ -56,6 +56,8 @@ Because all basic shapes can be created with a `path` element we use it for the 
 </svg>
 ```
 
+The MoveTo instructions (`M or m`) is the equivalent of lifting your pen and moving it to another position without leaving a mark. The uppercase form `M` sets the exact coordinates `(x, y)`. The lowercase form `m` sets the coordinates as an offset from the current position `(dx, dy)`.
+
 ## License
 
 This project is licensed under the terms of the [MIT license](/LICENSE).
