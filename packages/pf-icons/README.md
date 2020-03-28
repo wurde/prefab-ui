@@ -7,7 +7,7 @@ A suite of icons built using the **Prefab Design System**.
 Configure access to GitHub Package Registry (`.npmrc` file):
 
 ```
-@wurde:registry=https://npm.pkg.github.com
+registry=https://npm.pkg.github.com/wurde
 ```
 
 Install the package:

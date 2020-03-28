@@ -7,7 +7,7 @@ Tools for responsive mobile-first layout design when developing components using
 Configure access to GitHub Package Registry (`.npmrc` file):
 
 ```
-@wurde:registry=https://npm.pkg.github.com
+registry=https://npm.pkg.github.com/wurde
 ```
 
 Install the package:
