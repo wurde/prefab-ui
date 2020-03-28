@@ -2,6 +2,7 @@
   "name": "pf-icons",
   "version": "0.1.0",
   "description": "A suite of icons.",
+  "private": false,
   "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
