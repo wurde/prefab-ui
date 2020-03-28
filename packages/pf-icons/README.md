@@ -25,6 +25,10 @@ npm version [major minor patch]
 npm publish
 ```
 
+## Scalable Vector Graphics
+
+Our icons use the inline `<svg>` element. Inline SVG elements like any HTML element is controllable via CSS and JavaScript.
+
 ## License
 
 This project is licensed under the terms of the [MIT license](/LICENSE).
