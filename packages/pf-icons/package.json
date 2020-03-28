@@ -1,0 +1,24 @@
+{
+  "name": "pf-icons",
+  "version": "0.1.0",
+  "description": "A suite of icons.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "icon",
+    "icons",
+    "component",
+    "components",
+    "prefab design"
+  ],
+  "author": "Andy Bettisworth",
+  "license": "MIT",
+  "files": [
+    "src/**"
+  ],
+  "dependencies": {
+    "lit-element": "^2.3.1"
+  }
+}
