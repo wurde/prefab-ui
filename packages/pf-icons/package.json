@@ -7,6 +7,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wurde/prefab-ui.git",
+    "directory": "packages/pf-icons"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "bugs": {
+    "url": "https://github.com/wurde/prefab-ui/issues"
+  },
   "keywords": [
     "icon",
     "icons",
