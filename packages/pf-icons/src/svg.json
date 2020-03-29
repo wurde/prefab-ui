@@ -1,0 +1,5 @@
+{
+  "close": "<path d='M 2,8 l 6,0 l 0,-6 l 4,0 l 0,6 l 6,0 l 0,4 l -6,0 l 0,6 l -4,0 l 0,-6 l -6,0' transform='rotate(45,10,10)' />",
+  "minus": "<path d='M 2,8 h 16 v 4 h -16' />",
+  "plus": "<path d='M 2,8 l 6,0 l 0,-6 l 4,0 l 0,6 l 6,0 l 0,4 l -6,0 l 0,6 l -4,0 l 0,-6 l -6,0' />"
+}
