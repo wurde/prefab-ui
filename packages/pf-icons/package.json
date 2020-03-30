@@ -3,7 +3,12 @@
   "version": "0.1.1",
   "description": "A suite of icons.",
   "private": false,
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "scripts": {
+    "prebuild": "rimraf build/* dist/*",
+    "build": "tsc --project tsconfig.json && npm run webpack",
+    "webpack": "webpack-cli --config webpack.config.js --mode production --entry ./build/index.js --output ./dist/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/wurde/prefab-ui.git",
@@ -29,7 +34,12 @@
     "src/**"
   ],
   "devDependencies": {
-    "minimist": ">=1.2.2"
+    "minimist": ">=1.2.2",
+    "rimraf": "^3.0.2",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
   },
   "dependencies": {
     "lit-element": "^2.3.1"

@@ -32,6 +32,7 @@ Use the component like you would any HTML element. Set the `type` attribute to t
 <!-- Do some stuff -->
 
 <pf-icon type="plus"></pf-icon>
+<pf-icon type="plus" color="#AAA" size="80px"></pf-icon>
 
 <!-- Do some stuff -->
 ```
