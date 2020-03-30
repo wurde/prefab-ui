@@ -13,6 +13,7 @@ Principles:
 ## Packages
 
 - [pf-layouts](/packages/pf-layouts/README.md) - Tools for responsive mobile-first layout design.
+- [pf-icons](/packages/pf-icons/README.md) - A suite of icons.
 
 ## License
 
