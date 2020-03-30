@@ -36,6 +36,13 @@ Use the component like you would any HTML element. Set the `type` attribute to t
 <!-- Do some stuff -->
 ```
 
+## Icon Types
+
+- `close`
+- `minus`
+- `notdef`
+- `plus`
+
 ## Release a new version
 
 After making changes run the following commands:

@@ -1,6 +1,6 @@
 {
   "close": "<path d='M 2,8 l 6,0 l 0,-6 l 4,0 l 0,6 l 6,0 l 0,4 l -6,0 l 0,6 l -4,0 l 0,-6 l -6,0' transform='rotate(45,10,10)' />",
   "minus": "<path d='M 2,8 h 16 v 4 h -16' />",
-  "plus": "<path d='M 2,8 l 6,0 l 0,-6 l 4,0 l 0,6 l 6,0 l 0,4 l -6,0 l 0,6 l -4,0 l 0,-6 l -6,0' />",
-  "notdef": "<rect x='0px' y='0px' width='20' height='20' fill='none' strokeWidth='1' />"
+  "notdef": "<rect x='0px' y='0px' width='20' height='20' fill='none' strokeWidth='1' />",
+  "plus": "<path d='M 2,8 l 6,0 l 0,-6 l 4,0 l 0,6 l 6,0 l 0,4 l -6,0 l 0,6 l -4,0 l 0,-6 l -6,0' />"
 }
