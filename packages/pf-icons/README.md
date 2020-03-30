@@ -21,7 +21,7 @@ Import the library. This defines the `pf-icon` component.
 ```javascript
 // Do some stuff...
 
-import "pf-icons"
+import "@wurde/pf-icons"
 
 // Do some stuff...
 ```
