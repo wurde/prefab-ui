@@ -5,12 +5,12 @@ import icons from "./svg.json";
 
 @customElement("pf-icon")
 export class PrefabIcon extends LitElement {
-  @property({ type: String }) type: string = "noop"
+  @property({ type: String }) type: string = "notdef"
 
   render() {
     return html`
       <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="30px">
-        ${unsafeSVG((<any>icons)[this.type] || (<any>icons)["noop"])}
+        ${unsafeSVG((<any>icons)[this.type] || (<any>icons)["notdef"])}
       </svg>
     `;
   }
