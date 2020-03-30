@@ -13,7 +13,27 @@ registry=https://npm.pkg.github.com/wurde
 Install the package:
 
 ```bash
-npm i -D @wurde/pf-icons
+npm i -D @wurde/pf-icons lit-element lit-html
+```
+
+Import the library. This defines the `pf-icon` component.
+
+```javascript
+// Do some stuff...
+
+import "pf-icons"
+
+// Do some stuff...
+```
+
+Use the component like you would any HTML element. Set the `type` attribute to the icon you want. Other ways of customizing icons is via `size` or `color` attributes.
+
+```html
+<!-- Do some stuff -->
+
+<pf-icon type="plus"></pf-icon>
+
+<!-- Do some stuff -->
 ```
 
 ## Release a new version
@@ -51,7 +71,7 @@ Because all basic shapes can be created with a `path` element we use it for the 
 - ClosePath: `Z, z`
 
 ```html
-<svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="40px">
+<svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="30px">
   <path d="M 0,0 L 10, 10 L 0 20" />
 </svg>
 ```
