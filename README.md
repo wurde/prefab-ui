@@ -15,9 +15,11 @@ A suite of icons built using optimized SVG.
 
 ***This section is for contributors to the project.***
 
-This section is not necessary for the average developer as it goes into the WHY of the decisions made with each component. If you can, I encourage you to stop reading this and go build something epic. save you time and that's what this project is all about.
+This section is likely not necessary for you as it goes into the WHY of the decisions made with each component. If you can, I encourage you to stop reading this and go build something epic instead.
 
-Principles:
+### Principles
+
+Principles bring clarity when making any decision. They are concise enough to remember while having the power to reduce complex problems into simple terms. In the effort of making decisions easier we define three guiding principles.
 
 - Build for **scale**.
 - Build for **modularity**.
@@ -25,4 +27,4 @@ Principles:
 
 ## License
 
-This project is licensed under the terms of the [MIT license](/LICENSE).
+This project is __FREE__ to use, reuse, remix, and resell. This is made possible by the [MIT license](/LICENSE).
