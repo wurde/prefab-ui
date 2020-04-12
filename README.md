@@ -19,7 +19,7 @@ This section is likely not necessary for you as it goes into the WHY of the deci
 
 ### Principles
 
-Principles bring clarity when making any decision. They are concise enough to remember while having the power to reduce complex problems into simple terms. In the effort of making decisions easier we define three guiding principles.
+Principles bring clarity when making any decision. They are easy to remember while reducing complex problems into simple terms. In the effort of making decisions easier contributors follow three guiding principles.
 
 - Build for **scale**.
 - Build for **modularity**.
