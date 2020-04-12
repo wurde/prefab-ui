@@ -5,7 +5,8 @@ A suite of Web Component libraries built using the Prefab Design System.
 ## Libraries
 
 ### [pf-layouts](/packages/pf-layouts/README.md)
-5 predefined breakpoints a team can standardize around when building responsive mobile-first experience.
+
+Standardize your team on these 5 viewport breakpoints. They cover mobile, tablet, laptop, desktop, and tv layouts. Use them inside your layouts, pages, and custom components to build responsive mobile-first experiences.
 
 ### [pf-icons](/packages/pf-icons/README.md)
 
@@ -28,6 +29,8 @@ Principles bring clarity when making any decision. They are easy to remember whi
 - Build for **scale**.
 - Build for **modularity**.
 - Build for **universal appeal**.
+
+### Sample and Synthesize
 
 ## License
 
