@@ -30,8 +30,6 @@ Principles bring clarity when making any decision. They are easy to remember whi
 - Build for **modularity**.
 - Build for **universal appeal**.
 
-### Sample and Synthesize
-
 ## License
 
 This project is __FREE__ to use, reuse, remix, and resell. This is made possible by the [MIT license](/LICENSE).
