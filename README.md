@@ -1,6 +1,6 @@
 # Prefab UI
 
-A suite of Web Component libraries built using the Prefab Design System.
+A suite of Web Components built using the Prefab Design System.
 
 ## Libraries
 
