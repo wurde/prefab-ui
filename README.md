@@ -21,12 +21,6 @@ removing the burden of rewrites for every JavaScript framework.
 Prefab is short for prefabrication. It embodies the idea of
 building something at scale, to be modular, and with mass appeal.
 
-Web Components can ease the burden of learning the "next" JavaScript
-framework. As a Web Standard it promises cross-framework
-compatability for your components. Prefab is short for prefabrication.
-It embodies the idea of building something at scale, to be modular,
-and with mass appeal.
-
 ## License
 
 This project is __FREE__ to use, reuse, remix, and resell. This is
