@@ -14,7 +14,7 @@ A suite of icons built using optimized SVG.
 
 ## Prefab Design System
 
-Web Components can ease the burden of learning the "next" JavaScript framework. As a Web Standard it promises cross-framework compatability for your components. It is from that promise the name **Prefab UI** is derived. Prefab is short for prefabrication. It embodies the idea of building something at scale, to be modular, and with universal appeal.
+Web Components can ease the burden of learning the "next" JavaScript framework. As a Web Standard it promises cross-framework compatability for your components. It is from that promise the name **Prefab UI** is derived. Prefab is short for prefabrication. It embodies the idea of building something at scale, to be modular, and with mass appeal.
 
 ### Principles
 
