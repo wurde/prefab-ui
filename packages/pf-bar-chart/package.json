@@ -1,12 +1,35 @@
 {
-  "name": "pf-bar-chart",
+  "name": "@wurde/pf-bar-chart",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A simple bar chart.",
+  "private": false,
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/index.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wurde/prefab-ui.git",
+    "directory": "packages/pf-bar-chart"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "bugs": {
+    "url": "https://github.com/wurde/prefab-ui/issues"
+  },
+  "keywords": [
+    "d3",
+    "bar-chart"
+  ],
+  "author": "Andy Bettisworth & Moses Samuel",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "d3": "^6.1.0",
+    "lit-element": "^2.4.0"
+  }
 }
