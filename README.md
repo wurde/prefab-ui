@@ -10,7 +10,7 @@ Standardize your team on these 5 viewport breakpoints. They cover mobile, tablet
 
 A suite of icons built using optimized SVG.
 
-## Prefab Design System
+## Prefab Design
 
 Web Components can ease the burden of learning the "next" JavaScript framework. As a Web Standard it promises cross-framework compatability for your components. Prefab is short for prefabrication. It embodies the idea of building something at scale, to be modular, and with mass appeal.
 
