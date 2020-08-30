@@ -9,7 +9,7 @@
       "DOM"
     ],
     "moduleResolution": "node",
-    "strict": true,
+    "strict": false,
     "noUnusedLocals": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,

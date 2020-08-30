@@ -1,5 +1,5 @@
 {
-  "name": "@wurde/pf-bar-chart",
+  "name": "pf-bar-chart",
   "version": "0.1.0",
   "description": "A simple bar chart.",
   "private": false,

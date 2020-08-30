@@ -1,11 +1,10 @@
-import { html } from "lit-html";
 import * as d3 from "d3";
 
-export const BarChart = ({width, height, color = "steelblue", data = []}) => {
+export const BarChart = ({width = 150, height = 150, color = "steelblue", data = []}) => {
   const margin = { top: 20, right: 0, bottom: 30, left: 40 };
 
   const svg = d3.create("svg")
-    .attr("viewBox", [0, 0, "100%", "100%"])
+    .attr("viewBox", "0, 0, 100% 100%")
     .attr("width", width)
     .attr("height", height)
 
@@ -38,8 +37,8 @@ export const BarChart = ({width, height, color = "steelblue", data = []}) => {
     .call(d3.axisLeft(plotY))
     .call((g) => g.select(".domain").remove());
 
-  const gx = svg.append("g").call(xAxis);
-  const gy = svg.append("g").call(yAxis);
+  svg.append("g").call(xAxis);
+  svg.append("g").call(yAxis);
 
   return svg.node();
 }
