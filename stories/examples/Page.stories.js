@@ -2,7 +2,7 @@ import { Page } from './Page';
 import * as HeaderStories from './Header.stories';
 
 export default {
-  title: 'Example/Page',
+  title: 'Examples/Page',
 };
 
 const Template = (args) => Page(args);

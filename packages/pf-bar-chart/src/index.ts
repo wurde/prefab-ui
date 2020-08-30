@@ -1,7 +1,7 @@
 import { html } from "lit-html";
 import * as d3 from "d3";
 
-export const BarChart = ({data, width, height}) => {
+export const BarChart = ({width, height, color = "steelblue", data = []}) => {
   const margin = { top: 20, right: 0, bottom: 30, left: 40 };
 
   const svg = d3.create("svg")
@@ -19,7 +19,7 @@ export const BarChart = ({data, width, height}) => {
     .range([height - margin.bottom, margin.top])
 
   svg.append("g")
-      .attr("fill", "steelblue")
+      .attr("fill", color)
     .selectAll("rect")
     .data(data)
     .join("rect")

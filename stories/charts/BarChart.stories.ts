@@ -1,12 +1,13 @@
-import { BarChart } from "../packages/pf-bar-chart/src/index";
+import { BarChart } from "../../packages/pf-bar-chart/src/index";
 
 export default {
-  title: "Example/BarChart",
+  title: "Charts/BarChart",
 };
 
 interface PlotPoints {
   width: number;
   height: number;
+  color: string;
   data: Array<{ x: string; y: number }>;
 }
 
@@ -16,6 +17,7 @@ export const Primary = Template.bind({});
 Primary.args = {
   width: 150,
   height: 150,
+  color: "green",
   data: [
     { x: "A", y: 1 },
     { x: "B", y: 2 },
