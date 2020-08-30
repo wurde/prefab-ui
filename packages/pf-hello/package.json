@@ -1,6 +1,6 @@
 {
   "name": "pf-hello",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "A simple 'hello world' greeting.",
   "private": false,
   "main": "dist/index.js",
@@ -24,7 +24,7 @@
   "author": "Andy Bettisworth",
   "license": "MIT",
   "dependencies": {
-    "lit-html": "^1.3.0"
+    "lit-element": "^2.4.0"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",

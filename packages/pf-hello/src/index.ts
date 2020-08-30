@@ -1,7 +1,10 @@
-import { html } from 'lit-html';
+import { LitElement, html, customElement } from "lit-element";
 
-export const Hello = () => {
-  return html`
-    <span>Hello, world!</span>
-  `;
+@customElement("pf-hello")
+export class PrefabHello extends LitElement {
+  render() {
+    return html`
+      <span>Hello, world!</span>
+    `;
+  }
 }
