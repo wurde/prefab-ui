@@ -2,16 +2,20 @@
 
 A suite of Web Components built using Prefab Design.
 
+## [pf-bar-chart](/packages/pf-bar-chart/README.md)
+
+A simple Bar Chart.
+
+## [pf-icons](/packages/pf-icons/README.md)
+
+A suite of icons built using optimized SVG.
+
 ## [pf-layouts](/packages/pf-layouts/README.md)
 
 Standardize your team on these 5 viewport breakpoints. They cover
 mobile, tablet, laptop, desktop, and tv devices. Use them inside
 your layouts, pages, and custom components to build responsive
 mobile-first experiences.
-
-## [pf-icons](/packages/pf-icons/README.md)
-
-A suite of icons built using optimized SVG.
 
 ## Prefab Design
 

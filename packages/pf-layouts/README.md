@@ -1,5 +1,7 @@
 # Layouts
 
+[<- Back](../../README.md)
+
 Standardize your team on these 5 viewport breakpoints. They cover mobile, tablet, laptop, desktop, and tv devices. Use them inside your layouts, pages, and custom components to build responsive mobile-first experiences.
 
 ## Getting Started
