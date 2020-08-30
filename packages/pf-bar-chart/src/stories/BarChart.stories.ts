@@ -1,18 +1,27 @@
-import { BarChart } from '../index';
+import { BarChart } from "../index";
 
 export default {
-  title: 'Example/BarChart'
+  title: "Example/BarChart",
 };
 
-const Template = (args) => BarChart(args);
+interface PlotPoints {
+  width: number;
+  height: number;
+  data: Array<{ x: string; y: number }>;
+}
+
+const Template = (args: PlotPoints) => BarChart(args);
 
 export const Primary = Template.bind({});
 Primary.args = {
+  width: 150,
+  height: 150,
   data: [
-    { name: 'A', value: 1 },
-    { name: 'B', value: 2 },
-    { name: 'C', value: 4 },
-    { name: 'D', value: 8 },
-    { name: 'E', value: 16 },
-  ]
-}
+    { x: "A", y: 1 },
+    { x: "B", y: 2 },
+    { x: "C", y: 4 },
+    { x: "D", y: 8 },
+    { x: "E", y: 16 },
+    { x: "F", y: 32 },
+  ],
+};
