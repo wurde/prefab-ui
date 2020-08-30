@@ -14,10 +14,6 @@
     "url": "git://github.com/wurde/prefab-ui.git",
     "directory": "packages/pf-bar-chart"
   },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com"
-  },
   "bugs": {
     "url": "https://github.com/wurde/prefab-ui/issues"
   },
