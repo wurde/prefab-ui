@@ -1,4 +1,4 @@
-import { BarChart } from "../index";
+import { BarChart } from "../packages/pf-bar-chart/src/index";
 
 export default {
   title: "Example/BarChart",
