@@ -1,5 +1,7 @@
 # Prefab Icons
 
+[<- Back](../../README.md)
+
 A suite of icons built using the **Prefab Design System**.
 
 ## Getting Started
