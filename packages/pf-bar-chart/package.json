@@ -36,6 +36,7 @@
     "@storybook/addon-essentials": "^6.0.20",
     "@storybook/addon-links": "^6.0.20",
     "@storybook/web-components": "^6.0.20",
+    "@types/d3": "^5.7.2",
     "babel-loader": "^8.1.0",
     "http-server": "^0.12.3",
     "nodemon": "^2.0.4",
