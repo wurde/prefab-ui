@@ -17,10 +17,8 @@
     "url": "https://github.com/wurde/prefab-ui/issues"
   },
   "keywords": [
-    "ui",
-    "component",
-    "components",
-    "prefab design"
+    "web-component",
+    "lit-element"
   ],
   "author": "Andy Bettisworth",
   "license": "MIT",

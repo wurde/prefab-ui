@@ -22,11 +22,9 @@
     "url": "https://github.com/wurde/prefab-ui/issues"
   },
   "keywords": [
-    "icon",
-    "icons",
-    "component",
-    "components",
-    "prefab design"
+    "web-component",
+    "lit-element",
+    "icon"
   ],
   "author": "Andy Bettisworth",
   "license": "MIT",

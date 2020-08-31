@@ -18,9 +18,10 @@
     "url": "https://github.com/wurde/prefab-ui/issues"
   },
   "keywords": [
-    "web-components",
-    "d3",
-    "bar-chart"
+    "web-component",
+    "lit-element",
+    "bar-chart",
+    "d3"
   ],
   "author": "Andy Bettisworth & Moses Samuel",
   "license": "MIT",

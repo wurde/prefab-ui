@@ -18,7 +18,8 @@
     "url": "https://github.com/wurde/prefab-ui/issues"
   },
   "keywords": [
-    "web-components",
+    "web-component",
+    "lit-element",
     "hello"
   ],
   "author": "Andy Bettisworth",
