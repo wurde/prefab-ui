@@ -8,27 +8,27 @@ export class PrefabBarChart extends LitElement {
   @property({ type: Number }) width = 150;
   @property({ type: Number }) height = 150;
   @property({ type: String }) color = "steelblue";
-  @property({ type: Array }) data = [];
+  @property({ type: Array }) input = [];
 
   render() {
-    const svg = d3.create("svg")
+    const svgChart = d3.create("svg")
       .attr("viewBox", "0, 0, 100% 100%")
       .attr("width", this.width)
       .attr("height", this.height)
 
     const plotX = d3.scaleBand()
-      .domain(this.data.map(d => d.x))
+      .domain(this.input.map(d => d.x))
       .range([margin.left, this.width - margin.right])
       .padding(0.1)
 
     const plotY = d3.scaleLinear()
-      .domain([0, d3.max(this.data, d => d.y)]).nice()
+      .domain([0, d3.max(this.input, d => d.y)]).nice()
       .range([this.height - margin.bottom, margin.top])
 
-    svg.append("g")
+    svgChart.append("g")
         .attr("fill", this.color)
       .selectAll("rect")
-      .data(this.data)
+      .data(this.input)
       .join("rect")
         .style("mix-blend-mode", "multiply")
         .attr("x", d => plotX(d.x))
@@ -45,9 +45,9 @@ export class PrefabBarChart extends LitElement {
       .call(d3.axisLeft(plotY))
       .call((g) => g.select(".domain").remove());
 
-    svg.append("g").call(xAxis);
-    svg.append("g").call(yAxis);
+    svgChart.append("g").call(xAxis);
+    svgChart.append("g").call(yAxis);
 
-    return svg.node();
+    return svg`${svgChart.node()}`;
   }
 }
