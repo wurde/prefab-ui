@@ -1,6 +1,6 @@
 {
   "name": "pf-hello",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "A simple 'hello world' greeting.",
   "private": false,
   "main": "dist/index.js",
