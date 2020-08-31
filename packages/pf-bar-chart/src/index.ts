@@ -20,7 +20,7 @@ export class PrefabBarChart extends LitElement {
   render() {
     const svgChart = d3
       .create("svg")
-      .attr("viewBox", "0, 0, 100% 100%")
+      .attr("viewBox", "0 0 100% 100%")
       .attr("width", this.width)
       .attr("height", this.height);
 
