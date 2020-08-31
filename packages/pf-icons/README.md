@@ -2,20 +2,14 @@
 
 [<- Back](../../README.md)
 
-A suite of icons built using the **Prefab Design System**.
+A suite of icons.
 
 ## Getting Started
-
-Configure access to GitHub Package Registry (`.npmrc` file):
-
-```
-registry=https://npm.pkg.github.com/wurde
-```
 
 Install the package:
 
 ```bash
-npm i -D @wurde/pf-icons lit-element lit-html
+npm i pf-icons
 ```
 
 Import the library. This defines the `pf-icon` component.
@@ -23,7 +17,7 @@ Import the library. This defines the `pf-icon` component.
 ```javascript
 // Do some stuff...
 
-import "@wurde/pf-icons"
+import "pf-icons"
 
 // Do some stuff...
 ```
@@ -90,7 +84,8 @@ The MoveTo instructions (`M or m`) is the equivalent of lifting your pen and mov
 
 ## License
 
-This project is licensed under the terms of the [MIT license](/LICENSE).
+This project is __FREE__ to use, reuse, remix, and resell. This is
+made possible by the [MIT license](/LICENSE).
 
 ## References
 
