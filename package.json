@@ -5,6 +5,7 @@
   "scripts": {
     "lint": "eslint . --cache",
     "storybook": "start-storybook -p 6006",
+    "publish:latest": "lerna publish ",
     "build-storybook": "build-storybook --output-dir ./docs"
   },
   "author": "Andy Bettisworth",
