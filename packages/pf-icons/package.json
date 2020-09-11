@@ -1,6 +1,6 @@
 {
-  "name": "@wurde/pf-icons",
-  "version": "0.2.0",
+  "name": "pf-icons",
+  "version": "0.1.0",
   "description": "A suite of icons.",
   "private": false,
   "main": "dist/index.js",
@@ -14,13 +14,6 @@
     "url": "git://github.com/wurde/prefab-ui.git",
     "directory": "packages/pf-icons"
   },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com"
-  },
-  "bugs": {
-    "url": "https://github.com/wurde/prefab-ui/issues"
-  },
   "keywords": [
     "web-component",
     "lit-element",
@@ -28,9 +21,6 @@
   ],
   "author": "Andy Bettisworth",
   "license": "MIT",
-  "files": [
-    "src/**"
-  ],
   "devDependencies": {
     "minimist": ">=1.2.2",
     "rimraf": "^3.0.2",
@@ -41,5 +31,8 @@
   },
   "dependencies": {
     "lit-element": "^2.3.1"
-  }
+  },
+  "files": [
+    "dist/**"
+  ]
 }

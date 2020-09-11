@@ -14,9 +14,6 @@
     "url": "git://github.com/wurde/prefab-ui.git",
     "directory": "packages/pf-hello"
   },
-  "bugs": {
-    "url": "https://github.com/wurde/prefab-ui/issues"
-  },
   "keywords": [
     "web-component",
     "lit-element",

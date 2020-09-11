@@ -1,17 +1,13 @@
 {
-  "name": "@wurde/pf-layouts",
-  "version": "2.12.0",
+  "name": "pf-layouts",
+  "version": "0.1.0",
   "description": "Tools for responsive mobile-first layout design when developing components using LitElement.",
   "private": false,
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/wurde/prefab-ui.git",
     "directory": "packages/pf-layouts"
-  },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com"
   },
   "bugs": {
     "url": "https://github.com/wurde/prefab-ui/issues"
@@ -34,6 +30,6 @@
     "lit-element": "^2.2.1"
   },
   "files": [
-    "src/**"
+    "dist/**"
   ]
 }
