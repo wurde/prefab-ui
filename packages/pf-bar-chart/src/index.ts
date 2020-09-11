@@ -8,7 +8,7 @@ export class PrefabBarChart extends LitElement {
   @property({ type: Number }) width = 150;
   @property({ type: Number }) height = 150;
   @property({ type: String }) color = "steelblue";
-  @property({ type: Array }) input = [
+  @property({ type: Array })  input = [
     { x: "A", y: 1 },
     { x: "B", y: 2 },
     { x: "C", y: 4 },
