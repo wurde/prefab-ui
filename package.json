@@ -11,6 +11,7 @@
     "build": "lerna run --parallel --scope 'pf-*' build",
     "version:bump": "lerna version --allow-branch master --conventional-commits --yes",
     "publish:latest": "lerna publish",
+    "diff": "lerna diff",
     "lerna:upgrade": "lerna init"
   },
   "author": "Andy Bettisworth",
