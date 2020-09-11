@@ -1,4 +1,4 @@
-import { BarChart } from "../../packages/pf-bar-chart/src/index";
+import { PrefabBarChart } from "../../packages/pf-bar-chart/src/index";
 
 export default {
   title: "Charts/BarChart",
@@ -11,7 +11,7 @@ interface PlotPoints {
   data: Array<{ x: string; y: number }>;
 }
 
-const Template = (args: PlotPoints) => BarChart(args);
+const Template = (args: PlotPoints) => new PrefabBarChart(args);
 
 export const Primary = Template.bind({});
 Primary.args = {

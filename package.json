@@ -7,6 +7,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook --output-dir ./docs",
     "storybook:upgrade": "npx sb@next upgrade",
+    "bootstrap": "lerna bootstrap",
     "publish:latest": "lerna publish",
     "lerna:upgrade": "lerna init"
   },
