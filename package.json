@@ -8,6 +8,8 @@
     "build-storybook": "build-storybook --output-dir ./docs",
     "storybook:upgrade": "npx sb@next upgrade",
     "bootstrap": "lerna bootstrap",
+    "build": "lerna run --parallel --scope 'pf-*' build",
+    "version:bump": "lerna version --allow-branch master --conventional-commits --yes",
     "publish:latest": "lerna publish",
     "lerna:upgrade": "lerna init"
   },
