@@ -5,17 +5,19 @@
   "scripts": {
     "lint": "eslint . --cache",
     "storybook": "start-storybook -p 6006",
-    "publish:latest": "lerna publish ",
-    "build-storybook": "build-storybook --output-dir ./docs"
+    "build-storybook": "build-storybook --output-dir ./docs",
+    "storybook:upgrade": "npx sb@next upgrade",
+    "publish:latest": "lerna publish",
+    "lerna:upgrade": "lerna init"
   },
   "author": "Andy Bettisworth",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.11.4",
-    "@storybook/addon-actions": "^6.0.20",
-    "@storybook/addon-essentials": "^6.0.20",
-    "@storybook/addon-links": "^6.0.20",
-    "@storybook/web-components": "^6.0.20",
+    "@storybook/addon-actions": "^6.0.21",
+    "@storybook/addon-essentials": "^6.0.21",
+    "@storybook/addon-links": "^6.0.21",
+    "@storybook/web-components": "^6.0.21",
     "babel-loader": "^8.1.0",
     "eslint": "^6.7.2",
     "lerna": "^3.22.1",
