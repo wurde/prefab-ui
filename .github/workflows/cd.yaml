@@ -26,6 +26,9 @@ jobs:
           key: npm-${{ hashFiles('**/package-lock.json') }}
 
       - name: Install Dependencies
+        run: npm ci
+
+      - name: Link Local Packages
         run: npm run bootstrap
 
       - name: Build
