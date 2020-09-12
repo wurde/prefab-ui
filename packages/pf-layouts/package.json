@@ -9,20 +9,8 @@
     "url": "git://github.com/wurde/prefab-ui.git",
     "directory": "packages/pf-layouts"
   },
-  "keywords": [
-    "web-component",
-    "lit-element"
-  ],
   "author": "Andy Bettisworth",
   "license": "MIT",
-  "devDependencies": {
-    "nodemon": "^2.0.2",
-    "rimraf": "^3.0.0",
-    "ts-loader": "^6.2.1",
-    "typescript": "^3.7.5",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.9"
-  },
   "dependencies": {
     "lit-element": "^2.2.1"
   },
