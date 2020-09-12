@@ -14,6 +14,7 @@ const Template = (args) => `
 `;
 
 export const Primary = Template.bind({});
+
 Primary.args = {
   width: 250,
   height: 250,
