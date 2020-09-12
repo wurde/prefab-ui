@@ -12,8 +12,8 @@ env:
   NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
 jobs:
-  build:
-    name: Build
+  release:
+    name: Release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
@@ -31,44 +31,6 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Archive Production Artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: build
-          path: build
-
-  terraform:
-    name: Terraform
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Download Artifact
-        uses: actions/download-artifact@v2
-        with:
-          name: build
-          path: build
-
-      - name: Setup Terraform
-        uses: hashicorp/setup-terraform@v1.1.0
-        with:
-          terraform_version: "0.13.0-rc1"
-
-      - name: Terraform Format
-        run: terraform fmt -check
-        continue-on-error: true
-
-      - name: Terraform Init
-        run: terraform init
-
-      - name: Terraform Validate
-        run: terraform validate -no-color
-
-      - name: Terraform Plan
-        run: terraform plan -no-color
-
-      - name: Terraform Apply
+      - name: Publish
         if: github.ref == 'refs/heads/master' && github.event_name == 'push'
-        run: terraform apply -auto-approve
+        run: npm run publish
