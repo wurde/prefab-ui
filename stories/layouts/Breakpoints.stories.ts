@@ -6,32 +6,56 @@ export default {
 }
 
 @customElement("my-app")
-export class MyApp extends LitElement {
+class MyApp extends LitElement {
   static styles = css`
     :host {
       height: 100vh;
       display: grid;
-      grid-template-columns: 20px 1fr 20px;
-      grid-template-rows: 100px 1fr;
       justify-content: center;
-      padding: 10px;
+      padding: 20px;
+      background-color: #eaf1fc;
+    }
+
+    .header::after {
+      content: "Mobile";
+    }
+
+    @media (min-width: ${Breakpoints.tablet.minWidth}) {
+      :host {
+        background-color: #005777;
+      }
+      .header::after {
+        content: "Tablet";
+      }
+    }
+    @media (min-width: ${Breakpoints.laptop.minWidth}) {
+      :host {
+        background-color: #006d95;
+      }
+      .header::after {
+        content: "Laptop";
+      }
     }
     @media (min-width: ${Breakpoints.desktop.minWidth}) {
       :host {
-        grid-template-columns: 1fr 6fr 1fr;
-        padding: 0px;
+        background-color: #0087aa;
+      }
+      .header::after {
+        content: "Desktop";
+      }
+    }
+    @media (min-width: ${Breakpoints.tv.minWidth}) {
+      :host {
+        background-color: #00a1be;
+      }
+      .header::after {
+        content: "TV";
       }
     }
   `;
 
   render() {
-    return html`
-      Mobile View
-      Tablet View
-      Laptop View
-      Desktop View
-      TV View
-    `
+    return html`<h2 class="header"></h2>`;
   }
 }
 
