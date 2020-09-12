@@ -9,16 +9,16 @@ const Template = (args) => `
     width="${args.width}"
     height="${args.height}"
     color="${args.color}"
-    blah=${JSON.stringify(args.blah)}
+    info=${JSON.stringify(args.info)}
     />
 `;
 
 export const Primary = Template.bind({});
 Primary.args = {
-  width: 150,
-  height: 150,
-  color: "orange",
-  blah: [
+  width: 250,
+  height: 250,
+  color: "green",
+  info: [
     { x: "A", y: 1 },
     { x: "B", y: 2 },
     { x: "C", y: 4 },

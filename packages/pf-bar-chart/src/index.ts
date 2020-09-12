@@ -5,10 +5,10 @@ const margin = { top: 20, right: 0, bottom: 30, left: 40 };
 
 @customElement("pf-bar-chart")
 export class PrefabBarChart extends LitElement {
-  @property({ type: Number }) width = 150;
-  @property({ type: Number }) height = 150;
-  @property({ type: String }) color = "orange";
-  @property({ type: Array })  blah = [
+  @property({ type: Number }) width = 250;
+  @property({ type: Number }) height = 250;
+  @property({ type: String }) color = "green";
+  @property({ type: Array })  info = [
     { x: "A", y: 1 },
     { x: "B", y: 2 },
     { x: "C", y: 4 },
@@ -26,13 +26,13 @@ export class PrefabBarChart extends LitElement {
 
     const plotX = d3
       .scaleBand()
-      .domain(this.blah.map((d) => d.x))
+      .domain(this.info.map((d) => d.x))
       .range([margin.left, this.width - margin.right])
       .padding(0.1);
 
     const plotY = d3
       .scaleLinear()
-      .domain([0, d3.max(this.blah, (d) => d.y)])
+      .domain([0, d3.max(this.info, (d) => d.y)])
       .nice()
       .range([this.height - margin.bottom, margin.top]);
 
@@ -40,7 +40,7 @@ export class PrefabBarChart extends LitElement {
       .append("g")
       .attr("fill", this.color)
       .selectAll("rect")
-      .data(this.blah)
+      .data(this.info)
       .join("rect")
       .style("mix-blend-mode", "multiply")
       .attr("x", (d) => plotX(d.x))
