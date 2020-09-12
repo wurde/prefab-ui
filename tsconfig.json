@@ -2,10 +2,8 @@
   "compilerOptions": {
     "target": "ES2018",
     "module": "ES2015",
-    "outDir": "./build",
-    "rootDir": "./src",
     "lib": [
-      "ES2017",
+      "ES2018",
       "DOM"
     ],
     "moduleResolution": "node",
@@ -18,11 +16,9 @@
     "allowSyntheticDefaultImports": true,
     "assumeChangesOnlyAffectDirectDependencies": true
   },
-  "include": [
-    "src"
-  ],
   "exclude": [
-    "dist",
-    "node_modules"
+    "**/build",
+    "**/dist",
+    "**/node_modules"
   ]
 }
