@@ -7,8 +7,7 @@
   "scripts": {
     "prebuild": "rimraf build/* dist/*",
     "build": "tsc --project ../../tsconfig.json && npm run webpack",
-    "webpack": "webpack-cli --config ../../webpack.config.js --mode production --entry ./build/index.js --output ./dist/index.js",
-    "release": "npm build && npm publish build --tag next --dryrun"
+    "webpack": "webpack-cli --config ../../webpack.config.js --mode production --entry ./build/index.js --output ./dist/index.js"
   },
   "repository": {
     "type": "git",
