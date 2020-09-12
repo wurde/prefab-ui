@@ -2,7 +2,8 @@
 
 [<- Back](../../README.md)
 
-Standardize your team on these 5 viewport breakpoints. They cover mobile, tablet, laptop, desktop, and tv devices. Use them inside your layouts, pages, and custom components to build responsive mobile-first experiences.
+Layout breakpoints for responsive design. Support
+mobile, tablet, laptop, desktop, and tv devices.
 
 ## Getting Started
 
@@ -11,10 +12,6 @@ Install the package:
 ```bash
 npm i pf-layouts
 ```
-
-## Breakpoints
-
-Use `brekapoints` as your single source of truth for your layouts. Choosing convention over configuration reduces mental overhead for your team and avoids divergent codebases. Current devices and screen sizes supported include `tv`, `desktop`, `laptop`, `tablet`, and `mobile`.
 
 ### Definitions:
 
@@ -32,7 +29,7 @@ export const breakpoints = {
 
 ```typescript
 import { LitElement, html, css, customElement } from "lit-element";
-import { breakpoints } from "@wurde/pf-layouts";
+import Breakpoints from "pf-breakpoints";
 
 @customElement("my-app")
 export class MyApp extends LitElement {
@@ -45,7 +42,7 @@ export class MyApp extends LitElement {
       justify-content: center;
       padding: 10px;
     }
-    @media (min-width: ${breakpoints.desktop.minWidth}) {
+    @media (min-width: ${Breakpoints.desktop.minWidth}) {
       :host {
         grid-template-columns: 1fr 6fr 1fr;
         padding: 0px;

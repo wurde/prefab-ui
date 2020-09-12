@@ -1,7 +1,7 @@
 {
   "name": "pf-layouts",
   "version": "0.1.1",
-  "description": "Tools for responsive mobile-first layout design when developing components using LitElement.",
+  "description": "Layout breakpoints for responsive design.",
   "private": false,
   "main": "dist/index.js",
   "repository": {
