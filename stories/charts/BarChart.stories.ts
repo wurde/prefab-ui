@@ -1,29 +1,29 @@
-import { PrefabBarChart } from "../../packages/pf-bar-chart/src/index";
+import "../../packages/pf-bar-chart/src/index";
 
 export default {
   title: "Charts/BarChart",
 };
 
-interface PlotPoints {
-  width: number;
-  height: number;
-  color: string;
-  input: Array<{ x: string; y: number }>;
-}
-
-const Template = (args: PlotPoints) => new PrefabBarChart(args);
+const Template = (args) => `
+  <pf-bar-chart
+    width="${args.width}"
+    height="${args.height}"
+    color="${args.color}"
+    blah=${JSON.stringify(args.blah)}
+    />
+`;
 
 export const Primary = Template.bind({});
 Primary.args = {
   width: 150,
   height: 150,
   color: "orange",
-  input: [
+  blah: [
     { x: "A", y: 1 },
     { x: "B", y: 2 },
     { x: "C", y: 4 },
-    // { x: "D", y: 8 },
-    // { x: "E", y: 16 },
-    // { x: "F", y: 32 },
+    { x: "D", y: 8 },
+    { x: "E", y: 16 },
+    { x: "F", y: 32 },
   ],
 };
