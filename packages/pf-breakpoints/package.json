@@ -12,7 +12,7 @@
   "author": "Andy Bettisworth",
   "license": "MIT",
   "dependencies": {
-    "lit-element": "^2.2.1"
+    "lit-element": "^2.4.0"
   },
   "files": [
     "dist/**"

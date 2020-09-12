@@ -21,16 +21,8 @@
   ],
   "author": "Andy Bettisworth",
   "license": "MIT",
-  "devDependencies": {
-    "minimist": ">=1.2.2",
-    "rimraf": "^3.0.2",
-    "ts-loader": "^6.2.2",
-    "typescript": "^3.8.3",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
-  },
   "dependencies": {
-    "lit-element": "^2.3.1"
+    "lit-element": "^2.4.0"
   },
   "files": [
     "dist/**"
