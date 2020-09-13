@@ -5,6 +5,7 @@
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook --output-dir ./docs",
+    "deploy-storybook": "storybook-to-ghpages",
     "storybook:upgrade": "npx sb@next upgrade",
     "bootstrap": "lerna bootstrap --hoist",
     "build": "lerna run --parallel --scope 'pf-*' build",
@@ -20,6 +21,7 @@
     "@storybook/addon-actions": "^6.0.21",
     "@storybook/addon-essentials": "^6.0.21",
     "@storybook/addon-links": "^6.0.21",
+    "@storybook/storybook-deployer": "^2.8.6",
     "@storybook/web-components": "^6.0.21",
     "@types/d3": "^5.7.2",
     "babel-loader": "^8.1.0",
