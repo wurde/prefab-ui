@@ -16,8 +16,8 @@ const Template = (args) => `
 export const Primary = Template.bind({});
 
 Primary.args = {
-  width: 260,
-  height: 260,
+  width: 240,
+  height: 240,
   color: "blue",
   info: [
     { x: "A", y: 1 },
