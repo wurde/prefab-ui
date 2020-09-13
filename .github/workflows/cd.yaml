@@ -38,7 +38,7 @@ jobs:
       - name: Configure CI Git User
         run: |
           git config --global user.email andy.bettisworth@gmail.com
-          git config --global user.name Andy Bettisworth
+          git config --global user.name "Andy Bettisworth"
 
       - name: Version
         if: github.ref == 'refs/heads/master' && github.event_name == 'push'
