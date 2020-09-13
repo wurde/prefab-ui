@@ -4,12 +4,6 @@ A suite of Web Components built using Prefab Design.
 
 https://wurde.github.io/prefab-ui
 
-## Components
-
-- [pf-bar-chart](/packages/pf-bar-chart/README.md)
-- [pf-icons](/packages/pf-icons/README.md)
-- [pf-breakpoints](/packages/pf-breakpoints/README.md)
-
 ## Prefab Design
 
 The promise of Web Components inspires the Prefab Design system.
