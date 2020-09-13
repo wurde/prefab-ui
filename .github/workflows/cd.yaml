@@ -37,3 +37,14 @@ jobs:
       - name: Publish
         if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         run: npm run publish
+
+  gh-pages:
+    name: Github Pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      - name: Publish
+        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
+        run: npm run deploy-storybook -- --ci --host-token-env-variable=GITHUB_TOKEN
