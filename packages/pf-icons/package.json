@@ -1,6 +1,6 @@
 {
   "name": "pf-icons",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A suite of icons.",
   "private": false,
   "main": "dist/index.js",
