@@ -4,6 +4,11 @@
   "description": "Breakpoints for responsive design.",
   "private": false,
   "main": "dist/index.js",
+  "scripts": {
+    "prebuild": "rimraf build/* dist/*",
+    "build": "tsc --project . && npm run webpack",
+    "webpack": "webpack-cli --config ../../webpack.config.js --entry ./build/index.js --output ./dist/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/wurde/prefab-ui.git",

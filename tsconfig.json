@@ -1,11 +1,8 @@
 {
   "compilerOptions": {
-    "target": "ES2018",
-    "module": "ES2015",
-    "lib": [
-      "ES2018",
-      "DOM"
-    ],
+    "module": "esnext",
+    "target": "es2018",
+    "lib": ["es2018", "dom"],
     "moduleResolution": "node",
     "strict": false,
     "noUnusedLocals": true,
@@ -15,10 +12,5 @@
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "assumeChangesOnlyAffectDirectDependencies": true
-  },
-  "exclude": [
-    "**/build",
-    "**/dist",
-    "**/node_modules"
-  ]
+  }
 }

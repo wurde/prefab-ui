@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "rimraf build/* dist/*",
-    "build": "tsc --project ./tsconfig.json && npm run webpack",
+    "build": "tsc --project . && npm run webpack",
     "webpack": "webpack-cli --config ../../webpack.config.js --mode production --entry ./build/index.js --output ./dist/index.js"
   },
   "repository": {
