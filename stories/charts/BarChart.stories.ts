@@ -18,7 +18,7 @@ export const Primary = Template.bind({});
 Primary.args = {
   width: 250,
   height: 250,
-  color: "green",
+  color: "blue",
   info: [
     { x: "A", y: 1 },
     { x: "B", y: 2 },
