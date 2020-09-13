@@ -56,4 +56,6 @@ jobs:
 
       - name: Publish
         if: github.ref == 'refs/heads/master' && github.event_name == 'push'
-        run: npm run deploy-storybook -- --ci --host-token-env-variable=GITHUB_TOKEN
+        run: npm run deploy-storybook -- --ci
+        env:
+          GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
