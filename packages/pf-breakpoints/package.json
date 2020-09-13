@@ -1,5 +1,5 @@
 {
-  "name": "pf-layouts",
+  "name": "pf-breakpoints",
   "version": "0.1.3",
   "description": "Breakpoints for responsive design.",
   "private": false,
@@ -12,7 +12,7 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/wurde/prefab-ui.git",
-    "directory": "packages/pf-layouts"
+    "directory": "packages/pf-breakpoints"
   },
   "author": "Andy Bettisworth",
   "license": "MIT",
