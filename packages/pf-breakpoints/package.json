@@ -1,6 +1,6 @@
 {
   "name": "pf-layouts",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Breakpoints for responsive design.",
   "private": false,
   "main": "dist/index.js",
