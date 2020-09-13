@@ -8,7 +8,7 @@ https://wurde.github.io/prefab-ui
 
 - [pf-bar-chart](/packages/pf-bar-chart/README.md)
 - [pf-icons](/packages/pf-icons/README.md)
-- [pf-layouts](/packages/pf-layouts/README.md)
+- [pf-breakpoints](/packages/pf-breakpoints/README.md)
 
 ## Prefab Design
 

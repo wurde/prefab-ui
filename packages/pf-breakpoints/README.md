@@ -10,7 +10,7 @@ mobile, tablet, laptop, desktop, and tv devices.
 Install the package:
 
 ```bash
-npm i pf-layouts
+npm i pf-breakpoints
 ```
 
 ### Definitions:
