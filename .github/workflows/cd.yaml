@@ -44,6 +44,11 @@ jobs:
         if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         run: npm run version
 
+      - name: Authenticate with Registry
+        run: |
+          echo "registry=//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
+          npm whoami
+
       - name: Publish
         if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         run: npm run publish
