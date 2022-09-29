@@ -23,7 +23,7 @@
   "author": "Andy Bettisworth & Moses Samuel",
   "license": "MIT",
   "dependencies": {
-    "d3": "^6.1.0",
+    "d3": "^7.6.1",
     "lit-element": "^2.4.0"
   },
   "files": [
